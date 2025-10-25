@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dunamis/static/css/main.f8aec230.css",
+    "main.js": "/dunamis/static/js/main.ccb9cc3f.js",
+    "static/js/630.29a0ed97.chunk.js": "/dunamis/static/js/630.29a0ed97.chunk.js",
+    "index.html": "/dunamis/index.html",
+    "main.f8aec230.css.map": "/dunamis/static/css/main.f8aec230.css.map",
+    "main.ccb9cc3f.js.map": "/dunamis/static/js/main.ccb9cc3f.js.map",
+    "630.29a0ed97.chunk.js.map": "/dunamis/static/js/630.29a0ed97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8aec230.css",
+    "static/js/main.ccb9cc3f.js"
+  ]
+}

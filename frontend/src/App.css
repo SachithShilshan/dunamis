@@ -1,0 +1,26 @@
+/* src/App.css - simple clean styles */
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --muted:#9aa4b2;
+  --accent:#f97316;
+  --white:#ffffff;
+}
+*{box-sizing:border-box}
+body,html,#root{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
+.App{background:linear-gradient(180deg,#071022 0%, #0f1724 100%); color:var(--white); min-height:100vh}
+.container{max-width:1000px;margin:0 auto;padding:48px}
+.hero{padding:80px 0;text-align:center}
+.title{font-size:48px;margin:0 0 12px}
+.subtitle{color:var(--muted);font-size:18px;margin-bottom:20px}
+.ctaRow .btn{display:inline-block;margin:6px 8px;padding:12px 20px;border-radius:10px;text-decoration:none}
+.btn.primary{background:var(--accent);color:#fff;font-weight:600}
+.btn.ghost{border:1px solid rgba(255,255,255,0.08);color:var(--white)}
+.section{padding:40px 0}
+.section.alt{background:rgba(255,255,255,0.02)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:20px}
+.card{background:rgba(255,255,255,0.03);padding:20px;border-radius:12px}
+.card h3{margin:0 0 8px}
+.card p{color:var(--muted);margin:0 0 12px}
+.link{color:var(--accent);text-decoration:none;font-weight:600}
+.footer{padding:20px 0;border-top:1px solid rgba(255,255,255,0.03);text-align:center;color:var(--muted)}
